@@ -1,0 +1,105 @@
+/*
+Challenge:
+Change the site's background into a gradient that goes
+from blue at the top to pink at the bottom.
+*/
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(snow, palevioletred);
+    
+}
+
+h1 {
+    text-shadow: 0px 0px 1px black;
+    color: #E37383;
+}
+
+h2, h3, h4, p {
+    text-shadow: 1px 6px 12px black;
+    color: #FFF5EE;
+}
+
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://us.123rf.com/450wm/barbaliss/barbaliss2103/barbaliss210300164/barbaliss210300164.jpg?ver=6");
+    background-size: cover;
+}
+
+
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/26xBsGlPgE9tLTkR2/giphy-downsized-large.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/26xBGotQBDP6koT0A/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/1S0YpSq1FTEGAJLMgK/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/b1HXL3udincXVImb2b/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/GYXA22DqvoRjtDlgNK/giphy.gif");
+}
+
+
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
